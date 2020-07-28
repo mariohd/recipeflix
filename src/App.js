@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div style={{ background: '#141414'}}>
+    <>
       <Header />
 
       <BannerMain 
@@ -25,7 +25,7 @@ function App() {
 
       <Footer />
 
-    </div>
+    </>
   );
 }
 
